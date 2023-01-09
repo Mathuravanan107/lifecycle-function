@@ -1,0 +1,39 @@
+.container{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  min-width: 500px;
+  min-height: 250px;
+  background-color: aliceblue;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+#root{
+  justify-content: center;
+  display: flex;
+}
+.app-wrapper{
+  display: grid;
+  justify-content: center;
+}
+.todo{
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+  background-color: beige;
+  padding: 80px;
+}
+.todo-button{
+  background-color: rgba(122, 122, 236, 0.842);
+  border: none;
+}
+.todo-row{
+  display:flex;
+  justify-content: center;
+  background-color: tomato;
+  padding: 10px;
+}
